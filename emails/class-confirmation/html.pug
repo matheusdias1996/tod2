@@ -1,0 +1,10 @@
+p Hi #{user.name},
+p You were invited to the #{subject.name} class.
+p It'll happen on #{clazz.date} at #{clazz.time} in #{room}.
+p Do you confirm your presence?
+p
+    a(href=process.env.CLIENT_HOST + '/confirmClass/' + classId + '/' + token + '/yes') yes
+p
+    a(href=process.env.CLIENT_HOST + '/confirmClass/' + classId + '/' + token + '/no') no
+
+p Thanks!

@@ -1,0 +1,27 @@
+{
+  "name": "cursos-bain-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jneto",
+  "license": "ISC",
+  "dependencies": {
+    "agenda": "^2.0.2",
+    "bcrypt": "^3.0.6",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "email-templates": "^5.0.2",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "ical-generator": "^1.6.0",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.6.8",
+    "nodemailer": "^4.7.0",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "pug": "^2.0.3"
+  }
+}

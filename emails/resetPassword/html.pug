@@ -1,0 +1,4 @@
+p Hi #{user.name},
+p Please reset your password following the link below:
+p
+    a(href=process.env.CLIENT_HOST + '/changePassword/' + token) Reset Password
